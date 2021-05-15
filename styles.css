@@ -53,27 +53,27 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 2%;
-  top: 30%;
+  left: 9%;
+  top: 49%;
 }
 
 .object:nth-child(2) {
   left: 53%;
-  top: 28%;
+  top: 27%;
 }
 
 .object:nth-child(3) {
-  left: 29%;
-  top: 1%;
+  left: 6%;
+  top: 81%;
 }
 
 .object:nth-child(4) {
-  left: 4%;
-  top: 13%;
+  left: 8%;
+  top: 5%;
 }
 
 .object:nth-child(5) {
-  left: 56%;
-  top: 12%;
+  left: 64%;
+  top: 52%;
 }
 /*# sourceMappingURL=styles.css.map */
