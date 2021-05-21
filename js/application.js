@@ -14,4 +14,8 @@ $(document).ready(function(){
     $(".object").each(function(){
         $(this).css({"top": nombre(80) + "%", "left": nombre(90) + "%"}); 
     });
+
+    $(".buttonEnter").click(function(){
+        $(".landingPage").fadeOut(600);
+    })
 });

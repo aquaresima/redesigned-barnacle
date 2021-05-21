@@ -12,11 +12,15 @@
     box-sizing: border-box;
 }
 
-/*@font-face {
-    font-family: 'Alpina-Italic';
-    src:    url('fonts/GT-Alpina-Typewriter-Light-Italic.woff') format('woff'),
-            url('fonts/GT-Alpina-Typewriter-Light-Italic.woff2') format('woff2');
-}*/
+@font-face {
+    font-family: 'Helvetica';
+    src:    url('fonts/HelveticaLTStd-Roman.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Migra';
+    src:    url('fonts/MigraItalic-ExtralightItalic.otf') format('opentype');
+}
 
 html{
     height: 100%;
@@ -40,6 +44,25 @@ body {
     position: absolute;
     width: 10%;
     cursor: move;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.2vw;
+    font-weight: normal;
+
+    p {
+        /*opacity: 0;
+        transform: translateY(-50%);
+        transition: transform 500ms ease-in-out, opacity 300ms ease-in-out; */
+        display: none;
+        margin: 0;
+    }
+
+    &:hover p {
+        /*opacity: 1;
+        transform: translateY(0);*/
+        display: block;
+    }
 
     img {
        width: 100%;
@@ -56,6 +79,48 @@ body {
         transform: translate(-50%, -50%);
     }
 
+}
+
+.landingPage {
+    position: absolute;
+    padding: 2vw 10vw 0 10vw;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.2vw;
+    font-weight: normal;
+    
+
+    h1 {
+        font-family: Helvetica;
+        font-size: 300%;
+        font-weight: normal;
+        margin: 0 0 10w 0;
+        
+    }
+
+    .buttonEnter {
+        // text-transform: uppercase;
+        margin: 5% 0 0 0;
+        background: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        border-width: 1px;
+        border-style: solid;
+        border-radius:3vw;
+        border-color: white;
+        padding: 0.5vw 1vw 0.5vw 1vw;
+        cursor: pointer;
+
+        &:hover {
+            background: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+    }
 }
 
 @for $i from 1 through 5 {
