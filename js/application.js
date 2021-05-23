@@ -7,6 +7,13 @@ $(document).ready(function(){
         }
     });
 
+    $(".thoughtsWindows").draggable({
+        start: function(){
+            $(".thoughtsWindows").css({"z-index": 0});
+            $(this).css({"z-index": 100});
+        }
+    });
+
     function nombre(value){
         return  Math.floor(Math.random() * value);
     }
