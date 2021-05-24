@@ -14,6 +14,29 @@ $(document).ready(function(){
         }
     });
 
+    $(".quotes, #images").draggable({
+        start: function(){
+            $(".quotes, #images").css({"z-index": 0});
+            $(this).css({"z-index": 100});
+        }
+    });
+
+    $(".wholeBoxEditable").draggable();
+
+    // $(".personnalText").draggable({
+    //     start: function(){
+    //         $(".personnalText").css({"z-index": 0});
+    //         $(this).css({"z-index": 100});
+    //     }
+    // });
+
+        $(".personnalText").draggable()
+    .click(function() {
+        $(this).draggable( {disabled: false});
+    }).dblclick(function() {
+        $(this).draggable({ disabled: true });
+    });
+
     function nombre(value){
         return  Math.floor(Math.random() * value);
     }

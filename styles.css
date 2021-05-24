@@ -32,44 +32,47 @@ html {
   overflow: hidden;
 }
 
-.home {
-  margin: 0;
-  padding: 0;
-  background: black;
-  background-image: url(background.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
 body {
   margin: 0;
   padding: 0;
   background: black;
 }
 
+.home {
+  margin: 0;
+  padding: 0;
+  background: black;
+  background-image: url(outlinebg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 .menu {
   font-family: Helvetica;
   font-size: 9pt;
   font-weight: normal;
+  position: fixed;
+  top: 3px;
+  right: 3px;
 }
 
-.menu .buttonAboutus {
+.menu .buttonsMenu {
   background: black;
   color: white;
   display: inline-block;
   border-width: 1px;
   border-style: solid;
-  border-radius: 3vw;
+  border-radius: 1vw;
   border-color: white;
-  padding: 0.5vw 1vw 0.5vw 1vw;
+  padding: 0.2vw 0.5vw 0.2vw 0.5vw;
   cursor: pointer;
 }
 
-.menu .buttonAboutus:hover {
+.menu .buttonsMenu:hover {
   background: white;
   color: black;
 }
@@ -155,28 +158,41 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 69%;
-  top: 34%;
+  left: 26%;
+  top: 74%;
 }
 
 .object:nth-child(2) {
-  left: 22%;
-  top: 24%;
+  left: 49%;
+  top: 32%;
 }
 
 .object:nth-child(3) {
-  left: 38%;
-  top: 54%;
+  left: 75%;
+  top: 31%;
 }
 
 .object:nth-child(4) {
-  left: 30%;
-  top: 25%;
+  left: 63%;
+  top: 30%;
 }
 
 .object:nth-child(5) {
-  left: 56%;
-  top: 66%;
+  left: 32%;
+  top: 88%;
+}
+
+.bodyManifestoPage {
+  margin: 0;
+  padding: 0;
+  background: black;
+  background-image: url(bgthoughts.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .april {
@@ -185,6 +201,58 @@ body {
   top: 20vw;
   right: 20vw;
   overflow: hidden;
+}
+
+.april .texte {
+  font-family: HelveticaOblique;
+}
+
+.juin {
+  width: 20%;
+  position: absolute;
+  top: 10vw;
+  left: 10vw;
+  overflow: hidden;
+}
+
+.juin .texte {
+  font-family: HelveticaOblique;
+}
+
+.beantobar {
+  width: 25%;
+  position: absolute;
+  top: 18vw;
+  left: 5vw;
+  overflow: hidden;
+}
+
+.tonys {
+  width: 35%;
+  position: absolute;
+  top: 3vw;
+  left: 33vw;
+  overflow: hidden;
+}
+
+.issues {
+  width: 50%;
+  position: absolute;
+  top: 35vw;
+  right: 5vw;
+  overflow: hidden;
+}
+
+.issues a:link {
+  color: white;
+}
+
+.issues a:visited {
+  color: white;
+}
+
+.issues a:active {
+  color: #9900ff;
 }
 
 .thoughtsWindows {
@@ -201,19 +269,198 @@ body {
   border-style: solid;
   color: white;
   padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .thoughtsWindows .entête .titre {
   text-align: left;
+  width: 50%;
 }
 
 .thoughtsWindows .entête .date {
   text-align: right;
+  width: 50%;
 }
 
 .thoughtsWindows .texte {
-  font-family: HelveticaOblique;
   background: white;
   padding: 20px;
+}
+
+.quotes {
+  width: 40%;
+  position: absolute;
+  font-family: Helvetica;
+  font-size: 11pt;
+  font-weight: normal;
+  cursor: move;
+}
+
+.quotes:hover .entête {
+  opacity: 1;
+}
+
+.quotes .entête {
+  text-transform: uppercase;
+  font-size: 10pt;
+  background: black;
+  border-width: 1px;
+  border-style: solid;
+  color: white;
+  padding: 3px;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quotes .entête .titre {
+  text-align: left;
+  font-family: HelveticaOblique;
+  width: 50%;
+}
+
+.quotes .entête .linksource {
+  text-align: right;
+  width: 50%;
+}
+
+.quotes .texte {
+  background: white;
+  padding: 3px;
+}
+
+.quotes mark {
+  background-color: #9900ff;
+  color: white;
+  padding: 1px 6px 1px 6px;
+}
+
+.quotes a:link {
+  color: white;
+}
+
+.quotes a:visited {
+  color: white;
+}
+
+.quotes a:active {
+  color: #9900ff;
+}
+
+#inapril2018 {
+  top: 5vw;
+  right: 13vw;
+}
+
+#theharkinengel {
+  top: 7vw;
+  left: 10vw;
+}
+
+#theprotocollaidout {
+  top: 20vw;
+  left: 2vw;
+}
+
+#in2009 {
+  top: 15vw;
+  right: 4vw;
+}
+
+.personnalText {
+  position: absolute;
+  font-family: HelveticaOblique;
+  font-size: 11pt;
+  font-weight: normal;
+  color: white;
+  cursor: move;
+  padding: 2px;
+  left: 20vw;
+  top: 33vw;
+}
+
+.personnalText:hover {
+  border-width: 1px;
+  border-style: dashed;
+  border-color: white;
+  border-radius: 0.5vw;
+}
+
+.personnalText .personnalTextHarkinEngel {
+  -webkit-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  width: 60vw;
+}
+
+.wholeBoxEditable {
+  position: absolute;
+  display: block;
+  width: 15vw;
+  top: 36vw;
+  right: 9px;
+}
+
+.wholeBoxEditable .zoneDragBoxEditable {
+  height: 15px;
+  width: 100%;
+  cursor: move;
+}
+
+.wholeBoxEditable .boxEditable {
+  border-width: 1px;
+  border-style: dashed;
+  border-color: white;
+  border-radius: 0.5vw;
+  position: absolute;
+  font-family: Helvetica;
+  font-size: 11pt;
+  font-weight: normal;
+  color: #9900ff;
+  background: black;
+  margin: 2px;
+  width: 100%;
+}
+
+.instructions {
+  display: block;
+  width: 15vw;
+  bottom: 8px;
+  right: 5px;
+  font-family: Helvetica;
+  font-size: 9pt;
+  font-weight: normal;
+  position: fixed;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9900ff;
+  background: black;
+  margin: 2px;
+  color: white;
+  padding: 5px;
+}
+
+.instructions .buttonGoogleDoc {
+  display: inline-table;
+  background: #9900ff;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1vw;
+  border-color: #9900ff;
+  padding: 0.2vw 0.5vw 0.2vw 0.5vw;
+  margin: 10px 40% 2px 40%;
+  cursor: pointer;
+  color: white;
+}
+
+.instructions .buttonGoogleDoc:hover {
+  background: white;
+  color: #9900ff;
+  border-color: white;
 }
 /*# sourceMappingURL=styles.css.map */
