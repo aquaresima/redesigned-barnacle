@@ -45,9 +45,25 @@ $(document).ready(function(){
         $(this).css({"top": nombre(80) + "%", "left": nombre(90) + "%"}); 
     });
 
+    function positionFloating(id){
+        $(id).css({"top": nombre(70) + "%", "left": nombre(70) + "%"}); 
+    }
+
+    function floating(id){
+        setTimeout(function(){
+            positionFloating(id);
+        }, 10);
+        setInterval(function(){
+            positionFloating(id);
+        }, 10000);
+        
+    }
+
     $(".objectCamille").each(function(){
-        $(this).css({"top": nombre(80) + "%", "left": nombre(90) + "%"}); 
-    });
+        floating($(this));
+    }); 
+
+
 
     $("#trigger").each(function(){
         $(this).css({"top": nombre(80) + "%", "left": nombre(90) + "%"}); 
@@ -60,17 +76,13 @@ $(document).ready(function(){
         $(".landingPage").fadeOut(600);
     })
 
-    // var poseX= 20;
-    // var poseY= 50;
 
-    // function floating(){
-    //     poseX= poseX + 1;
-    //     poseY= poseY + 1;
-    //     $("#trigger").css({"top": poseX + "%", "left": poseY + "%"});
-    //     console.log(poseX + "/" + poseY)
-    // }
+    $(".objectCamille").each(function(){
+        $(this).css({"top": nombre(70) + "%", "left": nombre(70) + "%"}); 
+    });
 
-    // setInterval(floating, 30)
+
+
 
     $(".LienEpisode1").on("click",function(){
 
