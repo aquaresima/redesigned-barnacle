@@ -271,28 +271,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 33%;
-  top: 39%;
+  left: 7%;
+  top: 34%;
 }
 
 .object:nth-child(2) {
-  left: 11%;
-  top: 58%;
+  left: 13%;
+  top: 31%;
 }
 
 .object:nth-child(3) {
-  left: 5%;
-  top: 57%;
+  left: 30%;
+  top: 38%;
 }
 
 .object:nth-child(4) {
-  left: 76%;
-  top: 63%;
+  left: 43%;
+  top: 28%;
 }
 
 .object:nth-child(5) {
-  left: 77%;
-  top: 17%;
+  left: 71%;
+  top: 58%;
 }
 
 .netherlands {
@@ -424,11 +424,6 @@ body {
 
 .landingPageJuli {
   position: absolute;
-  background: black;
-  background-image: url(outlinebg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -1078,5 +1073,39 @@ body {
 
 #trigger2:hover ~ #bg .texte2 {
   display: none;
+}
+
+.map-container {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.map-container img {
+  height: 100%;
+}
+
+.map-container .map-pointer {
+  position: absolute;
+  width: 5vh;
+  height: 5vh;
+  background-color: green;
+  opacity: .5;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.map-container #Episode1 {
+  left: 70%;
+  top: 9%;
+}
+
+.map-container #Episode2 {
+  left: 70%;
+  top: 23%;
 }
 /*# sourceMappingURL=styles.css.map */
