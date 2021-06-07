@@ -544,13 +544,14 @@ body{
 }
 
 .objectCamille {
-    position: relative;
-    width: 25vw;
+    position: absolute
+    // width: 25vw;
+    // height: 150px;
     color: white;
     text-align: center;
 
     img{            
-        width: 100%;
+        height: 150px;
         position: absolute;
     }
 
@@ -569,6 +570,14 @@ body{
         height: 100%;
         cursor: pointer;
     }
+
+    // #beantobar{
+    //     width: 30vw;
+    // }
+
+    // #somethoughts{
+    //     width: 25vw;
+    // }
 
 }
 

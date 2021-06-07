@@ -271,28 +271,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 17%;
-  top: 9%;
+  left: 89%;
+  top: 72%;
 }
 
 .object:nth-child(2) {
-  left: 78%;
-  top: 54%;
+  left: 44%;
+  top: 75%;
 }
 
 .object:nth-child(3) {
-  left: 52%;
-  top: 32%;
+  left: 36%;
+  top: 76%;
 }
 
 .object:nth-child(4) {
-  left: 48%;
-  top: 86%;
+  left: 68%;
+  top: 82%;
 }
 
 .object:nth-child(5) {
-  left: 74%;
-  top: 24%;
+  left: 24%;
+  top: 20%;
 }
 
 .netherlands {
@@ -528,6 +528,7 @@ body {
 .objectCamille {
   position: relative;
   width: 25vw;
+  height: 150px;
   color: white;
   text-align: center;
 }
