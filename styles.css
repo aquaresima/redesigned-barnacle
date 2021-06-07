@@ -271,28 +271,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 38%;
-  top: 73%;
+  left: 10%;
+  top: 87%;
 }
 
 .object:nth-child(2) {
-  left: 45%;
-  top: 32%;
+  left: 71%;
+  top: 20%;
 }
 
 .object:nth-child(3) {
-  left: 36%;
-  top: 63%;
+  left: 88%;
+  top: 32%;
 }
 
 .object:nth-child(4) {
-  left: 44%;
-  top: 18%;
+  left: 87%;
+  top: 45%;
 }
 
 .object:nth-child(5) {
-  left: 81%;
-  top: 24%;
+  left: 73%;
+  top: 60%;
 }
 
 .netherlands {
