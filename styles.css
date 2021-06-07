@@ -271,28 +271,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 7%;
-  top: 34%;
+  left: 38%;
+  top: 73%;
 }
 
 .object:nth-child(2) {
-  left: 13%;
-  top: 31%;
+  left: 45%;
+  top: 32%;
 }
 
 .object:nth-child(3) {
-  left: 30%;
-  top: 38%;
+  left: 36%;
+  top: 63%;
 }
 
 .object:nth-child(4) {
-  left: 43%;
-  top: 28%;
+  left: 44%;
+  top: 18%;
 }
 
 .object:nth-child(5) {
-  left: 71%;
-  top: 58%;
+  left: 81%;
+  top: 24%;
 }
 
 .netherlands {
@@ -820,6 +820,25 @@ body {
   border-radius: 0.5vw;
 }
 
+.personnalText:hover .personnal-hover {
+  display: block;
+}
+
+.personnalText .personnal-hover {
+  position: absolute;
+  top: -2vw;
+  left: 50%;
+  padding: .5vw;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  display: none;
+  background-color: white;
+  color: black;
+  font-size: 8pt;
+  line-height: .2;
+}
+
 .personnalText .personnalTextHarkinEngel {
   -webkit-column-count: 3;
           column-count: 3;
@@ -1107,5 +1126,30 @@ body {
 .map-container #Episode2 {
   left: 70%;
   top: 23%;
+}
+
+.map-container #Episode3 {
+  left: 57.5%;
+  top: 37%;
+}
+
+.map-container #Episode4 {
+  left: 42%;
+  top: 67%;
+}
+
+.map-container #Episode5 {
+  left: 66%;
+  top: 81%;
+}
+
+.map-container #Episode6 {
+  left: 63.5%;
+  top: 77%;
+}
+
+.map-container #Episode7 {
+  left: 64%;
+  top: 71.5%;
 }
 /*# sourceMappingURL=styles.css.map */
