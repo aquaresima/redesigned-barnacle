@@ -52,7 +52,7 @@ $(document).ready(function(){
     function floating(id){
         setTimeout(function(){
             positionFloating(id);
-        }, 10);
+        }, 100);
         setInterval(function(){
             positionFloating(id);
         }, 10000);
@@ -119,5 +119,11 @@ $(document).ready(function(){
         $(".hoverAboutUs").css("display","none")
     
     });
+
+    $(".map-pointer").click(function(){
+        var id = $(this).attr("id");
+        $(".imgEpisode").hide();
+        $(".Img"+ id).show();
+    })
 
 });
