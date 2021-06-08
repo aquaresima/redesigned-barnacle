@@ -769,7 +769,6 @@ body{
             text-align: left;
             width: 50%;
         }
-        
     }
 
     .texte{
@@ -846,7 +845,6 @@ body{
         line-height: .2;
     }
 
-    
 
     .personnalTextHarkinEngel{
         column-count: 3;
@@ -859,6 +857,22 @@ body{
         column-gap: 20px;
         width: 40vw;
     }
+}
+
+.personnalTextLivingIncome{
+    column-count: 1;
+    column-gap: 20px;
+    width: 40vw;
+}
+.personnalTextLivingIncome2{
+    column-count: 1;
+    column-gap: 20px;
+    width: 40vw;
+}
+.personnalTextLivingIncome3{
+    column-count: 1;
+    column-gap: 20px;
+    width: 40vw;
 }
 
 .wholeBoxEditable{
@@ -1175,6 +1189,51 @@ body{
     
 }
 
+.li-1 {
+    top: 3vw;
+    left: 2vw;
+}
+
+.li-2 {
+    top: 5vw;
+    left: 50vw;
+}
+
+.li-3 {
+    left: 44vw;
+    top: 21vw;
+}
+
+.li-4 {
+    left: 2vw;
+    top: 28vw; 
+}
+
+.li-5 {
+    left: 15vw;
+    top: 38vw;
+}
+
+.li-6 {
+    left: 7vw;
+    top: 55vw;
+}
+
+.li-7{
+    left: 54vw;
+top: 57vw;
+}
+
+.li-9 {
+    left: 7vw;
+top: 12vw;
+
+}
+
+.li-10 {
+    left: 57vw;
+    top: 43vw;
+}
 // stuffs
 
 @media screen and (min-width: 1000px) {

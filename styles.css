@@ -271,28 +271,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 10%;
-  top: 87%;
+  left: 5%;
+  top: 34%;
 }
 
 .object:nth-child(2) {
-  left: 71%;
-  top: 20%;
+  left: 57%;
+  top: 62%;
 }
 
 .object:nth-child(3) {
-  left: 88%;
-  top: 32%;
+  left: 60%;
+  top: 72%;
 }
 
 .object:nth-child(4) {
-  left: 87%;
-  top: 45%;
+  left: 28%;
+  top: 71%;
 }
 
 .object:nth-child(5) {
-  left: 73%;
-  top: 60%;
+  left: 1%;
+  top: 38%;
 }
 
 .netherlands {
@@ -855,6 +855,30 @@ body {
   width: 40vw;
 }
 
+.personnalTextLivingIncome {
+  -webkit-column-count: 1;
+          column-count: 1;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  width: 40vw;
+}
+
+.personnalTextLivingIncome2 {
+  -webkit-column-count: 1;
+          column-count: 1;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  width: 40vw;
+}
+
+.personnalTextLivingIncome3 {
+  -webkit-column-count: 1;
+          column-count: 1;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  width: 40vw;
+}
+
 .wholeBoxEditable {
   position: fixed;
   display: block;
@@ -1151,5 +1175,50 @@ body {
 .map-container #Episode7 {
   left: 64%;
   top: 71.5%;
+}
+
+.li-1 {
+  top: 3vw;
+  left: 2vw;
+}
+
+.li-2 {
+  top: 5vw;
+  left: 50vw;
+}
+
+.li-3 {
+  left: 44vw;
+  top: 21vw;
+}
+
+.li-4 {
+  left: 2vw;
+  top: 28vw;
+}
+
+.li-5 {
+  left: 15vw;
+  top: 38vw;
+}
+
+.li-6 {
+  left: 7vw;
+  top: 55vw;
+}
+
+.li-7 {
+  left: 54vw;
+  top: 57vw;
+}
+
+.li-9 {
+  left: 7vw;
+  top: 12vw;
+}
+
+.li-10 {
+  left: 57vw;
+  top: 43vw;
 }
 /*# sourceMappingURL=styles.css.map */
