@@ -271,28 +271,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 10%;
-  top: 87%;
+  left: 55%;
+  top: 75%;
 }
 
 .object:nth-child(2) {
-  left: 71%;
-  top: 20%;
+  left: 69%;
+  top: 25%;
 }
 
 .object:nth-child(3) {
-  left: 88%;
-  top: 32%;
+  left: 78%;
+  top: 67%;
 }
 
 .object:nth-child(4) {
-  left: 87%;
-  top: 45%;
+  left: 39%;
+  top: 24%;
 }
 
 .object:nth-child(5) {
-  left: 73%;
-  top: 60%;
+  left: 88%;
+  top: 9%;
 }
 
 .netherlands {
@@ -512,23 +512,23 @@ body {
 }
 
 .objectCamille:nth-child(1) {
-  height: 14vw;
+  height: 11vw;
 }
 
 .objectCamille:nth-child(2) {
-  height: 10vw;
+  height: 8vw;
 }
 
 .objectCamille:nth-child(3) {
-  height: 14vw;
+  height: 13vw;
 }
 
 .objectCamille:nth-child(4) {
-  height: 10vw;
+  height: 7vw;
 }
 
 .objectCamille:nth-child(5) {
-  height: 14vw;
+  height: 13vw;
 }
 
 .objectCamille:nth-child(6) {
