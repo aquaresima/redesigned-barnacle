@@ -84,7 +84,7 @@ $(document).ready(function(){
 
 
 
-    $(".LienEpisode1").on("click",function(){
+    $("#Episode01").on("click",function(){
 
         $(".ImgEpisode1").css("display","block")
     
@@ -96,7 +96,7 @@ $(document).ready(function(){
     
     });
 
-    $(".LienEpisode2").on("click",function(){
+    $("#Episode02").on("click",function(){
 
         $(".ImgEpisode2").css("display","block")
     
@@ -125,5 +125,103 @@ $(document).ready(function(){
         $(".imgEpisode").hide();
         $(".Img"+ id).show();
     })
+
+    // episodes hover Juli
+
+    $("#Episode03").on("click",function(){
+
+        $(".ImgEpisode3").css("display","block")
+    
+    });
+
+    $(".closeButton").on("click",function(){
+
+        $(".ImgEpisode3").css("display","none")
+    
+    });
+
+    $("#Episode04").on("click",function(){
+
+        $(".ImgEpisode4").css("display","block")
+    
+    });
+
+    $(".closeButton").on("click",function(){
+
+        $(".ImgEpisode4").css("display","none")
+    
+    });
+
+    $("#Episode05").on("click",function(){
+
+        $(".ImgEpisode5").css("display","block")
+    
+    });
+
+    $(".closeButton").on("click",function(){
+
+        $(".ImgEpisode5").css("display","none")
+    
+    });
+
+    $("#Episode06").on("click",function(){
+
+        $(".ImgEpisode6").css("display","block")
+    
+    });
+
+    $(".closeButton").on("click",function(){
+
+        $(".ImgEpisode6").css("display","none")
+    
+    });
+
+    $(".LienEpisode7").on("click",function(){
+
+        $(".ImgEpisode7").css("display","block")
+    
+    });
+
+    $(".closeButton").on("click",function(){
+
+        $(".ImgEpisode7").css("display","none")
+    
+    });
+
+    $("#Episode001").on("click",function(){
+
+        $(".ImgEpisode1").css("display","block")
+    
+    });
+
+    $("#Episode002").on("click",function(){
+
+        $(".ImgEpisode2").css("display","block")
+    
+    });
+
+    $("#Episode003").on("click",function(){
+
+        $(".ImgEpisode3").css("display","block")
+    
+    });
+
+    $("#Episode004").on("click",function(){
+
+        $(".ImgEpisode4").css("display","block")
+    
+    });
+
+    $("#Episode005").on("click",function(){
+
+        $(".ImgEpisode5").css("display","block")
+    
+    });
+
+    $("#Episode006").on("click",function(){
+
+        $(".ImgEpisode6").css("display","block")
+    
+    });
 
 });

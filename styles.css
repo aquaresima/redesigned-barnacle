@@ -116,7 +116,11 @@ body {
   display: none;
   position: absolute;
   top: 2vw;
-  left: 6vw;
+  left: 6.5vw;
+}
+
+.hoverAboutUs img {
+  width: 45vw;
 }
 
 .hoverAboutUs .closeButton {
@@ -131,10 +135,10 @@ body {
   border-color: white;
   padding: 0.2vw 0.4vw 0.2vw 0.4vw;
   cursor: pointer;
-  top: 2px;
-  right: 2px;
+  top: 7px;
+  right: 7px;
   font-family: Helvetica;
-  font-size: 0.5vw;
+  font-size: 0.8vw;
 }
 
 .hoverAboutUs .closeButton:hover {
@@ -222,7 +226,7 @@ body {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   background: black;
-  background-image: url(backgroundproducercountries.jpg);
+  background-image: url(backgroundLandingpage.gif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -271,28 +275,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 55%;
-  top: 75%;
+  left: 34%;
+  top: 84%;
 }
 
 .object:nth-child(2) {
-  left: 69%;
-  top: 25%;
+  left: 70%;
+  top: 90%;
 }
 
 .object:nth-child(3) {
-  left: 78%;
-  top: 67%;
+  left: 25%;
+  top: 78%;
 }
 
 .object:nth-child(4) {
-  left: 39%;
-  top: 24%;
+  left: 36%;
+  top: 17%;
 }
 
 .object:nth-child(5) {
-  left: 88%;
-  top: 9%;
+  left: 21%;
+  top: 55%;
 }
 
 .netherlands {
@@ -410,6 +414,18 @@ body {
   height: 100%;
 }
 
+.hpCamille {
+  margin: 0;
+  padding: 0;
+  background: black;
+  background-image: url(backgroundLandingpageCamille.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
 .homepage {
   margin: 0;
   padding: 0;
@@ -424,6 +440,7 @@ body {
 
 .landingPageJuli {
   position: absolute;
+  background: black;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -440,24 +457,95 @@ body {
   margin: 10vw 20vw;
 }
 
-.landingPageJuli .LienEpisode1 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  top: 20vw;
-  right: 30vw;
-}
-
-.landingPageJuli .LienEpisode1 img {
-  width: 100%;
-}
-
 .landingPageJuli .ImgEpisode1 {
   display: none;
   position: absolute;
-  top: 20vw;
-  right: 30vw;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageJuli .ImgEpisode1 img {
+  width: 60vw;
+}
+
+.landingPageJuli .ImgEpisode2 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageJuli .ImgEpisode2 img {
+  width: 60vw;
+}
+
+.landingPageJuli .ImgEpisode3 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageJuli .ImgEpisode3 img {
+  width: 60vw;
+}
+
+.landingPageJuli .ImgEpisode4 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageJuli .ImgEpisode4 img {
+  width: 60vw;
+}
+
+.landingPageJuli .ImgEpisode5 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageJuli .ImgEpisode5 img {
+  width: 60vw;
+}
+
+.landingPageJuli .ImgEpisode6 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageJuli .ImgEpisode6 img {
+  width: 60vw;
+}
+
+.landingPageJuli .ImgEpisode7 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageJuli .ImgEpisode7 img {
+  width: 60vw;
 }
 
 .landingPageJuli .closeButton {
@@ -481,24 +569,249 @@ body {
   border-color: white;
 }
 
-.landingPageJuli .LienEpisode2 {
+.landingPageRaph {
   position: absolute;
-  top: 30vw;
-  left: 20vw;
-  width: 50px;
-  height: 50px;
+  background: black;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-weight: normal;
+}
+
+.landingPageRaph .texte {
+  position: absolute;
+  text-align: left;
+  width: 30vw;
+  margin: 10vw 20vw;
+}
+
+.landingPageRaph .ImgEpisode1 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.landingPageRaph .ImgEpisode1 img {
+  width: 30vw;
+}
+
+.landingPageRaph .ImgEpisode2 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageRaph .ImgEpisode2 img {
+  width: 30vw;
+}
+
+.landingPageRaph .ImgEpisode3 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageRaph .ImgEpisode3 img {
+  width: 30vw;
+}
+
+.landingPageRaph .ImgEpisode4 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageRaph .ImgEpisode4 img {
+  width: 30vw;
+}
+
+.landingPageRaph .ImgEpisode5 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageRaph .ImgEpisode5 img {
+  width: 30vw;
+}
+
+.landingPageRaph .ImgEpisode6 {
+  display: none;
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+}
+
+.landingPageRaph .ImgEpisode6 img {
+  width: 55vw;
+}
+
+.landingPageRaph .ImgEpisode7 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageRaph .ImgEpisode7 img {
+  width: 60vw;
+}
+
+.landingPageRaph .closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1vw;
+  border-color: white;
+  padding: 0.3vw 0.6vw 0.3vw 0.6vw;
   cursor: pointer;
 }
 
-.landingPageJuli .LienEpisode2 img {
-  width: 100%;
+.landingPageRaph .closeButton:hover {
+  background: white;
+  color: black;
+  border-color: white;
 }
 
-.landingPageJuli .ImgEpisode2 {
+.landingPageLison {
+  position: absolute;
+  background: black;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-weight: normal;
+}
+
+.landingPageLison .texte {
+  position: absolute;
+  text-align: left;
+  width: 30vw;
+  margin: 10vw 20vw;
+}
+
+.landingPageLison .ImgEpisode1 {
   display: none;
   position: absolute;
-  top: 30vw;
-  left: 20vw;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageLison .ImgEpisode1 img {
+  width: 60vw;
+}
+
+.landingPageLison .ImgEpisode2 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageLison .ImgEpisode2 img {
+  width: 60vw;
+}
+
+.landingPageLison .ImgEpisode3 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageLison .ImgEpisode3 img {
+  width: 60vw;
+}
+
+.landingPageLison .ImgEpisode4 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageLison .ImgEpisode4 img {
+  width: 60vw;
+}
+
+.landingPageLison .ImgEpisode5 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageLison .ImgEpisode5 img {
+  width: 60vw;
+}
+
+.landingPageLison .ImgEpisode6 {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landingPageLison .ImgEpisode6 img {
+  width: 60vw;
+}
+
+.landingPageLison .closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1vw;
+  border-color: white;
+  padding: 0.3vw 0.6vw 0.3vw 0.6vw;
+  cursor: pointer;
+}
+
+.landingPageLison .closeButton:hover {
+  background: white;
+  color: black;
+  border-color: white;
 }
 
 .objectCamille {
@@ -528,11 +841,11 @@ body {
 }
 
 .objectCamille:nth-child(5) {
-  height: 13vw;
+  height: 10vw;
 }
 
 .objectCamille:nth-child(6) {
-  height: 10vw;
+  height: 12vw;
 }
 
 .objectCamille img {
@@ -572,8 +885,8 @@ body {
 .april {
   width: 30%;
   position: absolute;
-  top: 20vw;
-  right: 20vw;
+  top: 7vw;
+  right: 9vw;
   overflow: hidden;
 }
 
@@ -581,11 +894,64 @@ body {
   font-family: HelveticaOblique;
 }
 
-.juin {
-  width: 20%;
+.definitions {
+  width: 30%;
   position: absolute;
-  top: 10vw;
-  left: 10vw;
+  top: 7vw;
+  right: 9vw;
+  overflow: hidden;
+}
+
+.definitions .texte {
+  font-family: Helvetica;
+}
+
+.mots1 {
+  width: 30%;
+  position: absolute;
+  top: 30vw;
+  right: 22vw;
+  overflow: hidden;
+}
+
+.mots1 .texte {
+  font-family: HelveticaOblique;
+}
+
+.mots2 {
+  width: 30%;
+  position: absolute;
+  top: 15vw;
+  left: 9vw;
+  overflow: hidden;
+}
+
+.mots2 .texte {
+  font-family: HelveticaOblique;
+}
+
+.mots3 {
+  width: 60%;
+  position: absolute;
+  top: 3vw;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.mots3 .texte {
+  font-family: HelveticaOblique;
+}
+
+.mots3 .texte .regular {
+  font-family: Helvetica;
+}
+
+.juin {
+  width: 50%;
+  position: absolute;
+  top: 15vw;
+  left: 7vw;
   overflow: hidden;
 }
 
@@ -602,7 +968,7 @@ body {
 }
 
 .tonys {
-  width: 35%;
+  width: 45%;
   position: absolute;
   top: 3vw;
   left: 33vw;
@@ -663,11 +1029,46 @@ body {
   padding: 20px;
 }
 
-.somethoughts {
+.titlePagesEpisode {
   position: absolute;
   width: 50vw;
-  top: 8vw;
-  left: 5vw;
+  top: 3vw;
+  left: 2vw;
+}
+
+.titlePagesEpisode1 {
+  position: absolute;
+  width: 50vw;
+  top: 26vw;
+  right: 20vw;
+}
+
+.titlePagesEpisode2 {
+  position: absolute;
+  width: 50vw;
+  top: 0vw;
+  left: 2vw;
+}
+
+.titlePagesEpisode3 {
+  position: absolute;
+  width: 40vw;
+  top: 3vw;
+  left: 2vw;
+}
+
+.titlePagesEpisode5 {
+  position: absolute;
+  width: 25vw;
+  top: 0vw;
+  left: 2vw;
+}
+
+.titlePagesEpisode4 {
+  position: absolute;
+  width: 40vw;
+  bottom: 0vw;
+  right: 2vw;
 }
 
 .bodyPageDraggeable {
@@ -1118,6 +1519,33 @@ body {
   display: none;
 }
 
+.GM {
+  position: absolute;
+  background-image: url("backgroundLandingpageGianmarco.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-weight: normal;
+}
+
+.texteGM {
+  position: absolute;
+  font-family: Helvetica;
+  font-size: 25pt;
+  font-weight: normal;
+  color: white;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .map-container {
   height: 100%;
   position: absolute;
@@ -1136,7 +1564,29 @@ body {
   width: 5vh;
   height: 5vh;
   background-color: green;
-  opacity: .5;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.map-container .map-pointerLison {
+  position: absolute;
+  width: 20vh;
+  height: 30vh;
+  background-color: green;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.map-container .map-pointerRaph {
+  position: absolute;
+  width: 5vh;
+  height: 5vh;
+  background-color: green;
+  opacity: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   cursor: pointer;
@@ -1158,7 +1608,7 @@ body {
 }
 
 .map-container #Episode4 {
-  left: 42%;
+  left: 44%;
   top: 67%;
 }
 
@@ -1175,6 +1625,66 @@ body {
 .map-container #Episode7 {
   left: 64%;
   top: 71.5%;
+}
+
+.map-container #Episode01 {
+  left: 19%;
+  top: 56%;
+}
+
+.map-container #Episode02 {
+  left: 34%;
+  top: 57%;
+}
+
+.map-container #Episode03 {
+  left: 47%;
+  top: 57%;
+}
+
+.map-container #Episode04 {
+  left: 61%;
+  top: 57%;
+}
+
+.map-container #Episode05 {
+  left: 75%;
+  top: 57%;
+}
+
+.map-container #Episode06 {
+  left: 89%;
+  top: 57%;
+}
+
+.map-container #Episode001 {
+  left: 15%;
+  top: 44%;
+}
+
+.map-container #Episode002 {
+  left: 24%;
+  top: 63%;
+}
+
+.map-container #Episode003 {
+  left: 48%;
+  top: 60%;
+}
+
+.map-container #Episode004 {
+  left: 56%;
+  top: 69%;
+}
+
+.map-container #Episode005 {
+  left: 64%;
+  top: 49%;
+}
+
+.map-container #Episode006 {
+  left: 74%;
+  top: 58%;
 }
 
 .li-1 {
@@ -1214,7 +1724,7 @@ body {
 
 .li-9 {
   left: 7vw;
-  top: 12vw;
+  top: 15vw;
 }
 
 .li-10 {
