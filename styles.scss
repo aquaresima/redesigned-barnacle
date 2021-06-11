@@ -578,10 +578,10 @@ body{
 
     .closeButton {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 8px;
+        right: 8px;
         // margin: 3px;
-        background: rgb(0, 0, 0);
+        background: $red;
         color: rgb(255, 255, 255);
         display: inline-block;
         border-width: 1px;
@@ -653,9 +653,8 @@ body{
     .ImgEpisode2 {
         display: none;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 45%;
+        left: 25%;
 
         img{
             width: 30vw;
@@ -666,9 +665,8 @@ body{
     .ImgEpisode3 {
         display: none;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 5%;
+        left: 35%;
 
         img{
             width: 30vw;
@@ -679,9 +677,8 @@ body{
     .ImgEpisode4 {
         display: none;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 15%;
+        left: 40%;
 
         img{
             width: 30vw;
@@ -692,9 +689,8 @@ body{
     .ImgEpisode5 {
         display: none;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 5%;
+        left: 33%;
 
         img{
             width: 30vw;
@@ -729,23 +725,23 @@ body{
 
     .closeButton {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 5px;
+        right: 5px;
         // margin: 3px;
         background: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
+        color: $red;
         display: inline-block;
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 1vw;
-        border-color: white;
+        // border-width: 1px;
+        // border-style: solid;
+        // border-radius: 1vw;
+        // border-color: white;
         padding: 0.3vw 0.6vw 0.3vw 0.6vw;
         cursor: pointer;
 
         &:hover {
-            background: white;
-            color: rgb(0, 0, 0);
-            border-color: white;
+            // background: white;
+            color: rgb(255, 255, 255);
+            // border-color: white;
         }
     }
 
@@ -781,10 +777,10 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-45%, -50%);
 
         img{
-            width: 60vw;
+            width: 70vw;
         }
 
     }
@@ -794,10 +790,10 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-45%, -50%);
 
         img{
-            width: 60vw;
+            width: 70vw;
         }
 
     }
@@ -807,10 +803,10 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-45%, -50%);
 
         img{
-            width: 60vw;
+            width: 70vw;
         }
 
     }
@@ -820,10 +816,10 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-45%, -50%);
 
         img{
-            width: 60vw;
+            width: 70vw;
         }
 
     }
@@ -833,10 +829,10 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-45%, -50%);
 
         img{
-            width: 60vw;
+            width: 70vw;
         }
 
     }
@@ -846,33 +842,33 @@ body{
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-45%, -50%);
 
         img{
-            width: 60vw;
+            width: 70vw;
         }
 
     }
 
     .closeButton {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: 5px;
+        right: 5px;
         // margin: 3px;
         background: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
+        color: $red;
         display: inline-block;
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 1vw;
-        border-color: white;
+        // border-width: 1px;
+        // border-style: solid;
+        // border-radius: 1vw;
+        // border-color: white;
         padding: 0.3vw 0.6vw 0.3vw 0.6vw;
         cursor: pointer;
 
         &:hover {
-            background: white;
-            color: rgb(0, 0, 0);
-            border-color: white;
+            // background: white;
+            color: rgb(255, 255, 255);
+            // border-color: white;
         }
     }
 

@@ -275,28 +275,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 34%;
-  top: 84%;
+  left: 5%;
+  top: 28%;
 }
 
 .object:nth-child(2) {
-  left: 70%;
-  top: 90%;
+  left: 49%;
+  top: 29%;
 }
 
 .object:nth-child(3) {
-  left: 25%;
-  top: 78%;
+  left: 29%;
+  top: 52%;
 }
 
 .object:nth-child(4) {
-  left: 36%;
-  top: 17%;
+  left: 65%;
+  top: 39%;
 }
 
 .object:nth-child(5) {
-  left: 21%;
-  top: 55%;
+  left: 31%;
+  top: 87%;
 }
 
 .netherlands {
@@ -550,9 +550,9 @@ body {
 
 .landingPageJuli .closeButton {
   position: absolute;
-  top: 0;
-  right: 0;
-  background: black;
+  top: 8px;
+  right: 8px;
+  background: #ff3f1d;
   color: white;
   display: inline-block;
   border-width: 1px;
@@ -602,10 +602,8 @@ body {
 .landingPageRaph .ImgEpisode2 {
   display: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 45%;
+  left: 25%;
 }
 
 .landingPageRaph .ImgEpisode2 img {
@@ -615,10 +613,8 @@ body {
 .landingPageRaph .ImgEpisode3 {
   display: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 5%;
+  left: 35%;
 }
 
 .landingPageRaph .ImgEpisode3 img {
@@ -628,10 +624,8 @@ body {
 .landingPageRaph .ImgEpisode4 {
   display: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 15%;
+  left: 40%;
 }
 
 .landingPageRaph .ImgEpisode4 img {
@@ -641,10 +635,8 @@ body {
 .landingPageRaph .ImgEpisode5 {
   display: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 5%;
+  left: 33%;
 }
 
 .landingPageRaph .ImgEpisode5 img {
@@ -677,23 +669,17 @@ body {
 
 .landingPageRaph .closeButton {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
   background: black;
-  color: white;
+  color: #ff3f1d;
   display: inline-block;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 1vw;
-  border-color: white;
   padding: 0.3vw 0.6vw 0.3vw 0.6vw;
   cursor: pointer;
 }
 
 .landingPageRaph .closeButton:hover {
-  background: white;
-  color: black;
-  border-color: white;
+  color: white;
 }
 
 .landingPageLison {
@@ -720,12 +706,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-45%, -50%);
+          transform: translate(-45%, -50%);
 }
 
 .landingPageLison .ImgEpisode1 img {
-  width: 60vw;
+  width: 70vw;
 }
 
 .landingPageLison .ImgEpisode2 {
@@ -733,12 +719,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-45%, -50%);
+          transform: translate(-45%, -50%);
 }
 
 .landingPageLison .ImgEpisode2 img {
-  width: 60vw;
+  width: 70vw;
 }
 
 .landingPageLison .ImgEpisode3 {
@@ -746,12 +732,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-45%, -50%);
+          transform: translate(-45%, -50%);
 }
 
 .landingPageLison .ImgEpisode3 img {
-  width: 60vw;
+  width: 70vw;
 }
 
 .landingPageLison .ImgEpisode4 {
@@ -759,12 +745,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-45%, -50%);
+          transform: translate(-45%, -50%);
 }
 
 .landingPageLison .ImgEpisode4 img {
-  width: 60vw;
+  width: 70vw;
 }
 
 .landingPageLison .ImgEpisode5 {
@@ -772,12 +758,12 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-45%, -50%);
+          transform: translate(-45%, -50%);
 }
 
 .landingPageLison .ImgEpisode5 img {
-  width: 60vw;
+  width: 70vw;
 }
 
 .landingPageLison .ImgEpisode6 {
@@ -785,33 +771,27 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-45%, -50%);
+          transform: translate(-45%, -50%);
 }
 
 .landingPageLison .ImgEpisode6 img {
-  width: 60vw;
+  width: 70vw;
 }
 
 .landingPageLison .closeButton {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 5px;
+  right: 5px;
   background: black;
-  color: white;
+  color: #ff3f1d;
   display: inline-block;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 1vw;
-  border-color: white;
   padding: 0.3vw 0.6vw 0.3vw 0.6vw;
   cursor: pointer;
 }
 
 .landingPageLison .closeButton:hover {
-  background: white;
-  color: black;
-  border-color: white;
+  color: white;
 }
 
 .objectCamille {
