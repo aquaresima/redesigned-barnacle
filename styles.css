@@ -275,28 +275,28 @@ body {
 }
 
 .object:nth-child(1) {
-  left: 5%;
-  top: 28%;
+  left: 25%;
+  top: 60%;
 }
 
 .object:nth-child(2) {
-  left: 49%;
-  top: 29%;
+  left: 4%;
+  top: 30%;
 }
 
 .object:nth-child(3) {
-  left: 29%;
+  left: 71%;
   top: 52%;
 }
 
 .object:nth-child(4) {
-  left: 65%;
-  top: 39%;
+  left: 15%;
+  top: 59%;
 }
 
 .object:nth-child(5) {
-  left: 31%;
-  top: 87%;
+  left: 58%;
+  top: 34%;
 }
 
 .netherlands {
@@ -564,6 +564,27 @@ body {
 }
 
 .landingPageJuli .closeButton:hover {
+  background: white;
+  color: black;
+  border-color: white;
+}
+
+.landingPageJuli .nextButton1 {
+  position: absolute;
+  bottom: 13px;
+  right: 8px;
+  background: #ff3f1d;
+  color: white;
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1vw;
+  border-color: white;
+  padding: 0.3vw 0.6vw 0.3vw 0.6vw;
+  cursor: pointer;
+}
+
+.landingPageJuli .nextButton1:hover {
   background: white;
   color: black;
   border-color: white;
@@ -1520,10 +1541,14 @@ body {
   font-size: 25pt;
   font-weight: normal;
   color: white;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  width: 40%;
+  -webkit-transition: top 10s linear, left 10s linear;
+  transition: top 10s linear, left 10s linear;
+}
+
+.texteGM img {
+  width: 30%;
+  display: inline-block;
 }
 
 .map-container {

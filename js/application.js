@@ -59,7 +59,7 @@ $(document).ready(function(){
         
     }
 
-    $(".objectCamille").each(function(){
+    $(".objectCamille, .texteGM").each(function(){
         floating($(this));
     }); 
 
@@ -77,7 +77,7 @@ $(document).ready(function(){
     })
 
 
-    $(".objectCamille").each(function(){
+    $(".objectCamille, .texteGM").each(function(){
         $(this).css({"top": nombre(70) + "%", "left": nombre(70) + "%"}); 
     });
 

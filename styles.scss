@@ -598,6 +598,28 @@ body{
         }
     }
 
+    .nextButton1 {
+        position: absolute;
+        bottom: 13px;
+        right: 8px;
+        // margin: 3px;
+        background: $red;
+        color: rgb(255, 255, 255);
+        display: inline-block;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 1vw;
+        border-color: white;
+        padding: 0.3vw 0.6vw 0.3vw 0.6vw;
+        cursor: pointer;
+
+        &:hover {
+            background: white;
+            color: rgb(0, 0, 0);
+            border-color: white;
+        }
+    }
+
     // .LienEpisode2 {
     //     position: absolute;
     //     top: 30vw;
@@ -1592,6 +1614,7 @@ body{
     font-family: Helvetica;
     font-size: 1vw;
     font-weight: normal;
+
 }
 
 .texteGM{
@@ -1600,9 +1623,18 @@ body{
     font-size: 25pt;
     font-weight: normal;
     color: rgb(255, 255, 255);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    width: 40%;
+
+    // left: 60%;
+    // top: 50%;
+    // transform: translate(-50%, -50%);
+
+    transition: top 10s linear, left 10s linear;
+
+    img{
+        width: 30%;
+        display: inline-block;
+    }
 }
 
 
